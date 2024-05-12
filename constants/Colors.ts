@@ -19,6 +19,7 @@ export const Colors = {
     textInputBorder: "#D1D1D1",
     orTextColor: "#696969",
     lineColor: "#3FC0EF",
+    buttonGradient: ["#26BCF2", "#82DAF9"],
   },
   dark: {
     text: "#ECEDEE",
@@ -32,5 +33,6 @@ export const Colors = {
     textInputBorder: "#D1D1D1",
     orTextColor: "#696969",
     lineColor: "#3FC0EF",
+    buttonGradient: ["#26BCF2", "#82DAF9"],
   },
 };

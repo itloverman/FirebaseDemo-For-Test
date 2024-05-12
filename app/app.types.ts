@@ -4,6 +4,7 @@ interface ListDataProps {
   createdAt: CreatedList;
   email: string;
   text: string;
+  image?: string;
 }
 
 interface CreatedList {

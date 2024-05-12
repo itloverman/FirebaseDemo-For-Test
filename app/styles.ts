@@ -149,8 +149,6 @@ export const styles = StyleSheet.create({
     color: background,
     fontSize: 19,
     fontWeight: "700",
-    paddingHorizontal: 70,
-    paddingVertical: 10,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -169,4 +167,29 @@ export const styles = StyleSheet.create({
     borderRadius: 6,
     overflow: "hidden",
   },
+  imageContainer: {
+    textAlign: "center",
+    height: 100,
+    width: 100,
+    borderRadius: 10,
+  },
+  centerImage: {
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  selectImage: {
+    position: "absolute",
+    right: 10,
+    bottom: 15,
+    backgroundColor: lightBlue,
+    padding: 5,
+    borderRadius: 10,
+  },
+  postButton: {
+    height: 40,
+    width: 100,
+    alignItems: "center",
+    justifyContent: "center",
+  }
 });
